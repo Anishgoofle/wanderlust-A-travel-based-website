@@ -1,0 +1,151 @@
+*{
+ margin:0px;
+ padding:0px;
+ }
+ 
+body{
+ font-family:Tahoma, Geneva, sans-serif;
+ background-image:url("sky.jpg");
+ background-repeat:no-repeat;
+ background-position:fixed;
+ }
+ 
+
+#container{
+ width:550px;
+ background-color:none;
+ margin:auto;
+ margin-top:50px;
+ margin-bottom:10px;
+ box-shadow:none;
+}
+#container_body{
+ padding:20px;
+ opacity:100%;
+ }
+.form_title{
+ font-size:35px;
+ color:#141823;
+ text-align:center;
+ padding:10px;
+ font-weight:normal;
+ }
+#form_name{
+ padding:25px 0 0 15px;
+ }
+.content{
+  margin-right:25px;
+ }
+.input_name{
+ width:200px;
+ padding:3px;
+ font-size:15px;
+ box-shadow:2px 2px 5px grey;
+ }
+ 
+ .input_name:hover{
+	opacity: 100%;
+ }
+ .input_name:active{
+	opacity: 60%;
+ }
+	
+
+ .positions{
+	  margin-bottom :20px;
+ }
+.input_email{
+ 
+ width:200px;
+ padding:3px;
+ font-size:15px;
+ box-shadow:2px 2px 5px grey;
+ }
+ .input_number{
+
+ width:200px;
+ padding:3px;
+ font-size:15px;
+ box-shadow:2px 2px 5px grey;
+ }
+ 
+ .input_email:hover{
+	opacity: 100%;
+ }
+
+ .input_email:active{
+	opacity:60%;
+ }
+  .input_people{
+ width:200px;
+ padding:3px;
+ font-size:15px;
+ box-shadow:2px 2px 5px grey;
+ }
+  .input_select{
+ width:200px;
+ padding:3px;
+ font-size:15px;
+ box-shadow:2px 2px 5px grey;
+ }
+ 
+ .input_people:hover{
+	opacity: 100%;
+ }
+
+ .input_people:active{
+	opacity:60%;
+ }
+  .input_number:hover{
+	opacity: 100%;
+ }
+
+ .input_number:active{
+	opacity:60%;
+ }
+ 
+
+#radio_button{
+ padding:10px 0 0 0;
+ }
+#sign_user {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 28px;
+	border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	margin-top:28px;
+	margin-left:75px;
+ }
+ #go {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 28px;
+	border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	margin-left:87px;
+ }
+ 
+ #sign_user:hover{
+	background-color:#0000A0;
+ }
+ 
+ #login a{
+	 color:black;
+ }
+ 
+#errorBox{
+ color:#F00;
+ }
